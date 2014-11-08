@@ -1,0 +1,357 @@
+html {
+	height: 100%;
+	background: white
+}
+body {
+	background-image: -webkit-linear-gradient(top, #f1f1f1 0, #efefef 20%);
+	background-image: -moz-linear-gradient(top, #f1f1f1 0, #efefef 20%);
+	background-image: -o-linear-gradient(top, #f1f1f1 0, #efefef 20%);
+	background-image: -ms-linear-gradient(top, #f1f1f1 0, #efefef 20%);
+	font-family: Helvetica Neue, Arial, Clean, Sans-Serif;
+	font-weight: 200;
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+	min-height: 100%;
+	min-width: 82.69em
+}
+#doc {
+	width: 74.23em;
+	padding: 0 4.23em;
+	background-color: rgba(255,255,255,0.7);
+	border: 0
+}
+#yUnivHead {
+	background: rgba(255,255,255,0)!important
+}
+#regFormHeader {
+	width: 45.38em;
+	border: 0;
+	padding-bottom: 1.5em;
+	margin-bottom: 1em
+}
+#signInBtnHook {
+	margin-left: 5.1em;
+	margin-top: .5em
+}
+.row {
+	padding: .77em 0;
+	margin: 0
+}
+.section-header {
+	font-size: 1.38em;
+	padding-bottom: .83em;
+	border-bottom: 1px solid #b8b8b8;
+	text-shadow: 0 1px 0 #fff;
+	width: 32.78em;
+	margin-bottom: 1.1em
+}
+.row label {
+	color: #666;
+	width: 8.8em;
+	text-align: left;
+	font-size: 1.18em;
+	font-weight: normal;
+	text-shadow: 0 1px 0 #fff;
+	padding-right: 1.56em;
+	-webkit-font-smoothing: antialiased;
+	vertical-align: middle
+}
+.fieldsCollection legend {
+	font-weight: 200;
+	font-size: 1.384em;
+	color: #666;
+	padding-bottom: .83em;
+	-webkit-font-smoothing: antialiased
+}
+.fieldsCollection legend .bold {
+	font-weight: 400;
+	font-size: 1.11em;
+	color: #444!important
+}
+.dotline {
+	margin: 0 0 .77em;
+	border: 0;
+	drop-shadow: 0 1px 0 #fff;
+	width: 52.85em;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #bbb;
+	height: 0
+}
+.collection input, .collection select {
+	height: 2.2em;
+	font-size: 1.384em;
+	border-radius: 4px;
+	border: 1px solid #b8b8b8;
+	padding: 0 .5em 0 .5em;
+	vertical-align: middle;
+	line-height: 1.384em;
+	color: #666;
+	box-shadow: inset -1px 1px 2px rgba(0,0,0,0.2)
+}
+#firstname, #yahooid, #domain, #password, #mm, #dd, #mobileCountryCode {
+	margin-right: .56em
+}
+#meter_tag {
+	margin: 0
+}
+.collection select {
+	padding: .4em;
+	height: 2.4em
+}
+#firstname, #secondname, #yahooid, #password, #passwordconfirm, #secquestionanswer, #secquestionanswer2 {
+	width: 11.1em
+}
+#mobileNumber {
+	width: 6.1em
+}
+#altemail {
+	width: 15.9em
+}
+#postalcode {
+	width: 8em
+}
+#passwordFld h3 {
+	font-size: 120%
+}
+#choosenyid {
+	font-size: 1.54em
+}
+#mm, #country, #language, #gender {
+	width: 9em
+}
+#mobileCountryCode {
+	font-size: 1em;
+	height: 3.3em;
+	width: 12.7em;
+	padding-top: .77em;
+	padding-bottom: .77em
+}
+#secquestion, #secquestion2 {
+	width: 22.7em;
+	height: 3em;
+	font-size: 1.1em;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+#secquestionanswer, #secquestionanswer2, #customsecquestion1, #customsecquestion2 {
+	width: 16.9em
+}
+#secureQuestionFld, #customSecureQuestionFld1, #secureAnswerFld, #secureQuestionFld2, #customSecureQuestionFld2, #secureAnswerFld2 {
+	padding: .62em 0
+}
+#secureQuestionFld {
+	padding-top: 1.9em
+}
+#passwordFld, #confPasswordFld {
+	margin: 0
+}
+.ie9#domain {
+	width: 9.9em
+}
+#domain {
+	width: 10.2em
+}
+#at {
+	display: inline-block;
+	font-size: 2.15em;
+	vertical-align: middle;
+	margin-right: .36em;
+	color: #999
+}
+#dd {
+	width: 1.42em
+}
+#yyyy {
+	width: 2.8em
+}
+fieldset.fieldsCollection div.example {
+	margin-left: 12.7em;
+	font-size: 100%
+}
+#yidHelperBtn {
+	width: 3.5em;
+	font-size: 1.18em;
+	padding: 0;
+	margin: 0
+}
+.multipleRows {
+	margin-left: 0;
+	margin-top: 0;
+	padding-top: 1.54em
+}
+#IAgreeBtn, #ContinueBtn, #VerifyCollectBtn {
+	border: 1px solid #b68323;
+	border-radius: 4px;
+	height: 2.78em;
+	font-size: 1.384em;
+	font-weight: 500;
+	color: #4a4a4a;
+	text-shadow: 0 1px 0 #eee;
+	padding: 0 1.5em;
+	background: -moz-linear-gradient(top, rgba(255,224,176,1) 0, rgba(255,182,47,1) 50%);
+	background: -webkit-linear-gradient(top, rgba(255,224,176,1) 0, rgba(255,182,47,1) 50%);
+	background: -o-linear-gradient(top, rgba(255,224,176,1) 0, rgba(255,182,47,1) 50%);
+	background: -ms-linear-gradient(top, rgba(255,224,176,1) 0, rgba(255,182,47,1) 50%);
+	background: linear-gradient(to bottom, rgba(255,224,176,1) 0, rgba(255,182,47,1) 50%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe5b2', endColorstr='#ffb62f', GradientType=0);
+	margin-bottom: 4.17em;
+	margin-top: 1.67em;
+	cursor: pointer
+}
+#ContinueBtn {
+	margin-bottom: 3.38em
+}
+#disclaimer {
+	width: 59em;
+	font-size: .92em;
+	color: #666
+}
+div.yidsuggestion {
+	margin-left: 13em
+}
+fieldset.fieldsCollection .information div.msgContainer {
+	left: 1.5em;
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+*display:inline
+}
+.MobileCountryCode {
+	width: 3.35em;
+	height: 1.45em;
+	padding-top: .45em;
+	vertical-align: middle;
+	border: 1px solid #b8b8b8;
+	border-top: 2px solid #b8b8b8;
+	border-radius: 4px;
+	display: inline-block;
+	zoom: 1;
+*display:inline
+}
+fieldset.fieldsCollection div.msgContainer p {
+	width: 17em;
+	font-size: 100%
+}
+fieldset.fieldsCollection .information div.msgContainer .icon {
+	background: transparent url(https://s.yimg.com/sf/reg/r18/2/i/a-ym-icon-sprite.png) no-repeat scroll 0 -15px
+}
+fieldset.fieldsCollection .yflderr div.msgContainer .icon, fieldset.fieldsCollection .pwdanswersameerr div.msgContainer .icon {
+	background: transparent url(https://s.yimg.com/sf/reg/r18/2/i/a-ym-icon-sprite.png) no-repeat scroll 0 0
+}
+input:focus, select:focus {
+	box-shadow: 0 0 5px 2px #6cb9ec
+}
+#mem_ft {
+	border: 0!important;
+	padding-top: 1em!important;
+	padding-bottom: 3.5em!important
+}
+#mem_ft p {
+	font-size: 100%;
+	font-family: Helvetica Neue, Arial, Clean, Sans-Serif!important
+}
+.yui3-skin-sam .yui3-aclist-content {
+	text-align: left!important
+}
+div.first {
+	background: none!important;
+	width: 48%!important
+}
+div.third {
+	background: none!important;
+	display: none!important
+}
+a {
+	color: #ffffff!important
+}
+div.first, div.second, div.third {
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+#regConfirmBody {
+	padding: 0!important;
+	margin: 5.38em 1.5em 0
+}
+#regConfirmBody h1 {
+	font-size: 1.85em;
+	color: #666;
+	font-family: Helvetica Neue, Arial, Clean, Sans-Serif;
+	font-weight: 600
+}
+#regConfirmBody h2 {
+	font-size: 1.25em;
+	color: #666;
+	font-family: Helvetica Neue, Arial, Clean, Sans-Serif;
+	font-weight: 200;
+	padding-top: .4em
+}
+ul#acctData li {
+	min-height: 3.1em;
+	height: auto!important;
+	height: 3.1em;
+	margin: 0
+}
+ul#acctData li#ymail {
+	font-weight: inherit!important
+}
+ul#acctData li .value {
+	text-align: left;
+	font-weight: normal!important;
+	font-size: 1.2em;
+	font-family: Helvetica Neue, Arial, Clean, Sans-Serif!important;
+	color: #666;
+	word-wrap: break-word
+}
+ul#acctData li .key {
+	text-align: left;
+	font-weight: normal!important;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-family: Helvetica Neue, Arial, Clean, Sans-Serif!important;
+	color: #666;
+	width: 30%;
+	margin-top: .3em;
+	word-wrap: break-word
+}
+div.first div.content-container {
+	padding: 0
+}
+.yui-t7 #yui-main .yui-b {
+	margin: 0!important
+}
+div#doc div#yui-main div.yui-b div#regConfirmBody div.yui-gb#details {
+	margin: 3.1em 0 0 0!important;
+	width: 100%
+}
+#secQues br, #secQues2 br {
+	display: none
+}
+#secQues br#answer1, #secQues2 br#answer2 {
+	display: block
+}
+div#mktgPrefsFld p {
+	color: #505050;
+	line-height: 122%;
+	float: left;
+	width: 96%;
+	padding-left: 1em;
+	width: 35em
+}
+#mktgPrefs {
+	float: left
+}
+div#mktgPrefsFld {
+	margin-top: -3.95em;
+	width: 90%;
+	margin-bottom: 3.62em;
+	margin-left: 0;
+	float: left
+}
+#mktgPrefsField {
+	width: 100%;
+	margin-bottom: 3.62em;
+	margin-top: -2em
+}
+#fldsetCaptchaTos .yflderr div.msgContainer {
+	height: 2.5em
+}
