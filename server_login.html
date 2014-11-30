@@ -29,23 +29,29 @@
 	</div>
 	</div>
     <div class="loginform">    
-    <form action="login.php" method="post">
+    <form action="server_login.php" method="post">
         <table>
+              <tr>
+            	<td>Server Name</td>
+           		<td>
+           		  <input type="text" name="servername" id="username" />
+       		    </td>
+            </tr>      
         	<tr>
             	<td>Username</td>
            		<td>
-           		  <input type="text" name="username" id="username" />
+           		  <input type="text" name="username_serv" id="username" />
        		    </td>
             </tr>
             <tr>
             	<td>Password</td>
-                <td><input type="password" name="password" id="password" /></td>
+                <td><input type="password" name="password_serv" id="password" /></td>
             </tr>
         </table>
         <input type="submit" name="submit" value="Login" class="button button-small" />
         <br />
         <br />
-            <p><h5>*Enter a valid username and password</h5></p>
+            <p><h5></h5></p>
     </form>    
     </div>
 

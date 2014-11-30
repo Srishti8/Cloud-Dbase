@@ -1,6 +1,6 @@
 <?php
 $server="localhost";
-$dbname="minor";
+$dbname="opencloud";
 $dbusername="root";
 $dbpassword="";
 
@@ -27,14 +27,14 @@ $con=mysql_connect($server,$dbusername,$dbpassword);
 $query="insert into register (First_Name,Last_Name,email_id,domain,password,password_confirm,date,month,year,country,code,number) 
 values ('$First_Name','$Last_Name','$email_id','$domain','$enpas','$enpas_confirm','$date','$month','$year','$country','$code','$number')";
 
-//$newquery="insert into flogin (pswrd) values ('$enpas')";
+$newquery="insert into userlogin (username,password) values ('$email_id','$enpas')";
 
 $result=mysql_query($query);
-//$newresult=mysql_query($newquery);
+$newresult=mysql_query($newquery);
 
 	if($result)
-	
-	 echo 'success'; 	 
+	   header("Location:login.html");
+	 //echo 'success'; 	 
     else
 	  echo 're-enter';
 

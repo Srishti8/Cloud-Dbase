@@ -89,6 +89,13 @@
 	{
 		padding-left:35px;
 	}
+	
+	.loginform td
+	{
+		width:220px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
 
 /*********************************************************************************/
 /* Login form                                                                         */
